@@ -1,0 +1,159 @@
+.contentbox{
+    width: 1100px;
+    margin:  0 auto;
+ 
+
+}
+
+.contentbox .title{
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+
+.contentbox .time{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.contentbox .time{
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 5px;
+}
+
+.contentbox .time .yuanc{
+    border: 1px solid #cccccc;
+}
+.contentbox .time span{
+    color:#cccccc;
+    font-size: 16px;
+   
+    line-height: 28px;
+    color: #cccccc;
+    margin-right: 10px;
+}
+.contentbox .content{
+
+}
+.contentbox .content p{
+    margin-top: 20px;
+    font-size: 16px;
+}
+.content{
+    width:1000px;
+    margin-left: 50px;
+}
+.content img{
+    max-width: 100%;
+    display: block;
+}
+.share-let{
+    width: 50px;
+    position: fixed;
+    left: 129px;
+    top: 200px;
+
+}
+.share-let div{
+    font-size: 18px;
+}
+.re-let .images{
+
+}
+.share-let .images .images-box{
+    
+    /* width: 40px;
+    height: 40px; */
+}
+.share-let .images .images-box a{
+  
+}
+.share-let .images .img2{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.share-let .images .img1{
+    width: 50px;
+    height: 50px;
+  
+}
+.share-let .images img:hover{
+    /* background-color: #000; */
+    opacity: 0.5;
+    
+}
+
+.base{
+    width: 1000px;
+    text-align: right;
+    /* background-color: red; */
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.base .collect{
+display: inline-block;
+margin-right: 30px;
+}
+.base .collect img{
+width: 20px;
+height: 20px;
+vertical-align: middle;
+
+}
+.base .collect span{
+    font-size: 15px;
+    vertical-align: middle;
+    color: #cccccc;
+}
+
+.base .like{
+    display: inline-block;
+    height: 20px;
+}
+
+.base .like span{
+    font-size: 15px;
+    vertical-align: middle;
+    color: #cccccc;
+    
+}
+.base .like img{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.base .intransit{
+    display: inline-block;
+    height: 20px;
+    display: none
+}
+
+
+.base .intransit img{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+
+.intransit{
+    display: none;
+}
+
+
+
+@media (min-width: 1920px) {
+    .share-let{
+        width: 50px;
+        position: fixed;
+        left: 380px;
+        top: 200px;
+    }
+}
